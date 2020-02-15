@@ -83,6 +83,9 @@
                     <tr>\
                         <td colspan="2"><strong>Sheet</strong><br />' + (feature.properties['sheet_numb'] !== null ? Autolinker.link(feature.properties['sheet_numb'].toLocaleString()) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Relevant Documents</strong><br />' + (feature.properties['rlvnt_docs'] !== null ? Autolinker.link(feature.properties['rlvnt_docs'].toLocaleString()) : '') + '</td>\
+                    </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -128,6 +131,9 @@
             var popupContent = '<table>\
                     <tr>\
                         <td colspan="2"><strong>Sheet</strong><br />' + (feature.properties['sheet_numb'] !== null ? Autolinker.link(feature.properties['sheet_numb'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Relevant Documents</strong><br />' + (feature.properties['rlvnt_docs'] !== null ? Autolinker.link(feature.properties['rlvnt_docs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -176,10 +182,13 @@
                         <td colspan="2"><strong>Sheet</strong><br />' + (feature.properties['sheet_numb'] !== null ? Autolinker.link(feature.properties['sheet_numb'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Start Date</strong><br />' + (feature.properties['start_date'] !== null ? Autolinker.link(feature.properties['start_date'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Progress Payments As-Builts</strong><br />' + (feature.properties['PP_ABs'] !== null ? Autolinker.link(feature.properties['PP_ABs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>TCPs</strong><br />' + (feature.properties['tcps'] !== null ? Autolinker.link(feature.properties['tcps'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Relevant Documents</strong><br />' + (feature.properties['rlvnt_docs'] !== null ? Autolinker.link(feature.properties['rlvnt_docs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -228,10 +237,13 @@
                         <td colspan="2"><strong>Sheet</strong><br />' + (feature.properties['sheet_numb'] !== null ? Autolinker.link(feature.properties['sheet_numb'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Start Date</strong><br />' + (feature.properties['start_date'] !== null ? Autolinker.link(feature.properties['start_date'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Progress Payments As-Builts</strong><br />' + (feature.properties['PP_ABs'] !== null ? Autolinker.link(feature.properties['PP_ABs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>TCPs</strong><br />' + (feature.properties['tcps'] !== null ? Autolinker.link(feature.properties['tcps'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Relevant Documents</strong><br />' + (feature.properties['rlvnt_docs'] !== null ? Autolinker.link(feature.properties['rlvnt_docs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -280,10 +292,13 @@
                         <td colspan="2"><strong>Sheet</strong><br />' + (feature.properties['sheet_numb'] !== null ? Autolinker.link(feature.properties['sheet_numb'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Start Date</strong><br />' + (feature.properties['start_date'] !== null ? Autolinker.link(feature.properties['start_date'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Progress Payments As-Builts</strong><br />' + (feature.properties['PP_ABs'] !== null ? Autolinker.link(feature.properties['PP_ABs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>TCPs</strong><br />' + (feature.properties['tcps'] !== null ? Autolinker.link(feature.properties['tcps'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Relevant Documents</strong><br />' + (feature.properties['rlvnt_docs'] !== null ? Autolinker.link(feature.properties['rlvnt_docs'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
